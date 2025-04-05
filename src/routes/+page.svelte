@@ -50,6 +50,8 @@
 </div>
 <div bind:this={mainDiv} class="main-content">
     <div>
-        Test
+        <h1>Home</h1>
+        <p><i>Note: This website is best experienced on a PC. Responsive design is limited.</i></p>
+        <p>Test</p>
     </div>
 </div>

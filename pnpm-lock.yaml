@@ -8,6 +8,12 @@ importers:
 
   .:
     devDependencies:
+      '@fontsource/roboto':
+        specifier: ^5.2.5
+        version: 5.2.5
+      '@fontsource/roboto-slab':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@sveltejs/adapter-auto':
         specifier: ^4.0.0
         version: 4.0.0(@sveltejs/kit@2.20.3(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.6)(vite@6.2.4(sass-embedded@1.86.3)))(svelte@5.25.6)(vite@6.2.4(sass-embedded@1.86.3)))
@@ -191,6 +197,12 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource/roboto-slab@5.2.5':
+    resolution: {integrity: sha512-pOWJaBy+i4bI10Q5aSXqXxfF5Oow1wq07+5QFX3O15QkQ0TwTXDQR4yxFUjmVYR2p8tZOe408FbR25AQx8mqwg==}
+
+  '@fontsource/roboto@5.2.5':
+    resolution: {integrity: sha512-70r2UZ0raqLn5W+sPeKhqlf8wGvUXFWlofaDlcbt/S3d06+17gXKr3VNqDODB0I1ASme3dGT5OJj9NABt7OTZQ==}
 
   '@jridgewell/gen-mapping@0.3.8':
     resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
@@ -795,6 +807,10 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.2':
     optional: true
+
+  '@fontsource/roboto-slab@5.2.5': {}
+
+  '@fontsource/roboto@5.2.5': {}
 
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:
