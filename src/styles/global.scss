@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: "Roboto Slab";
+}
+
+button {
+    font-family: "Roboto Slab";
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    background-image: url("../lib/assets/don.jpg");
+    background-position: center top;
+    background-color: rgb(70, 46, 70);
+    background-blend-mode: soft-light;
+
+    text-align: center;
+
+    h1 {
+        margin: 0;
+        color: rgb(255, 255, 255, 0.7);
+    }
+
+    button {
+        font-size: 2rem;
+        font-weight: 300;
+        padding: 0.5rem;
+    }
+
+    &-top {
+        margin-top: 2rem;
+
+        h1 {
+            font-family: "Roboto";
+            font-size: 6em;
+        }
+    }
+
+    &-center {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10%;
+
+        h1 {
+            font-size: 3em;
+            font-weight: 200;
+            margin: 1rem;
+        }
+    }
+
+    &-bottom {
+        margin-bottom: 2rem;
+    }
+}
+
+.main-content {
+    margin-left: 25%;
+    margin-right: 25%;
+
+    min-height: 100vh;
+}
