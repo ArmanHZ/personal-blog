@@ -1,10 +1,13 @@
-@import "@fontsource/roboto";
-@import "@fontsource/roboto-slab";
-@import "@fontsource/roboto-slab/200";
-@import "@fontsource/roboto-slab/300";
+// TODO: These look cringe, but import causes a warning...
+@use "@fontsource/roboto" as *;
+@use "@fontsource/roboto-slab" as *;
+@use "@fontsource/roboto-slab/200" as *;
+@use "@fontsource/roboto-slab/300" as *;
 
 $background-color: #0c0c0c;
 $header-color: #ef9af2;
+$synth-blue: #6df1d8;
+$link-color: #b8aec8;
 
 html {
     font-size: 1em;
@@ -18,6 +21,20 @@ body {
 
 button {
     font-family: "Roboto Slab";
+}
+
+.blue-text {
+    color: $synth-blue;
+}
+
+a {
+    color: $link-color;
+    text-decoration: underline solid transparent;
+    transition: text-decoration 800ms ease;
+}
+
+a:hover {
+    text-decoration: underline solid currentColor;
 }
 
 .hero {
@@ -73,8 +90,12 @@ button {
 }
 
 .main-content {
-    margin-left: 25%;
-    margin-right: 25%;
+    // margin-left: 25%;
+    // margin-right: 25%;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+
     margin-top: 2em;
     scroll-margin: 2em;
 

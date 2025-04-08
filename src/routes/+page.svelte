@@ -52,6 +52,35 @@
     <div>
         <h1>Home</h1>
         <p><i>Note: This website is best experienced on a PC. Responsive design is limited.</i></p>
-        <p>Test</p>
+        <p>Welcome to my part of the internet. I'm <i class="blue-text">Arman</i>.</p>
+        <p>
+            The purpose of this website is for me to share my interests with the world.
+            For me to reflect back, for people to read and learn.
+        </p>
+        <p>
+            My main interests are <i class="blue-text">GNU/Linux</i> <i class="blue-text">Web Security</i> and <i class="blue-text">Tool development</i>.
+            So, most of the blog posts will be about these.
+        </p>
+        <p>However, I also want to write about my more recent interests.</p>
+        <p>
+            Tech related stuff from CTFs, such as <i class="blue-text">Forensics</i>, <i class="blue-text">OSINT</i> and <i class="blue-text">Reversing</i>.
+            <br />
+            Non-tech related things like <i class="blue-text">Philosophy</i> and <i class="blue-text">Text analysis</i>.
+        </p>
     </div>
+
+    <h1>Links to places</h1>
+    <div>
+        <ul>
+            <li>a</li>
+            <li>b</li>
+        </ul>
+    </div>
+
+    <br />
+    <h1>Friends!</h1>
+    <p>You should definitely check out the following landchads as well.</p>
+    <ul>
+        <li><a href="https://openpunk.com/">OpenPunk</a> (He makes and breaks things)</li>
+    </ul>
 </div>
