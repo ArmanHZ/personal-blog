@@ -1,7 +1,6 @@
 <script lang="ts">
     import { onMount, onDestroy } from "svelte";
-    import "../lib/components/RowItem.svelte";
-    import RowItem from "../lib/components/RowItem.svelte";
+    import RowItem from "$lib/components/RowItem.svelte";
 
     let mainDiv: HTMLElement | null = null;
 
@@ -74,6 +73,11 @@
     <h1>Links to places</h1>
     <div>
         <RowItem
+            title="Blog posts"
+            link="/blog"
+            content="My posts on various subjects."
+        />
+        <RowItem
             title="Writeups"
             link="https://github.com/ArmanHZ/writeups"
             content="Writeups for CTFs and HTB boxes. This is where you should go if you're a recruiter and want to see some examples of my documentation or if you're curios and learning about CTFs and boxes."
@@ -82,11 +86,6 @@
             title="Go Detect That Hash!"
             link="https://github.com/ArmanHZ/go-detect-that-hash"
             content="Hash detector written in Go. Inspired by Python hashID."
-        />
-        <RowItem
-            title="Blog posts"
-            link="/blog"
-            content="My posts on various subjects."
         />
     </div>
 

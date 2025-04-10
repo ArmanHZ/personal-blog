@@ -32,10 +32,16 @@ a {
     color: $link-color;
     text-decoration: underline solid transparent;
     transition: text-decoration 800ms ease;
+    transition: color 800ms ease;
 }
 
 a:hover {
+    color: $synth-blue;
     text-decoration: underline solid currentColor;
+}
+
+code {
+    color: $header-color;
 }
 
 .hero {
